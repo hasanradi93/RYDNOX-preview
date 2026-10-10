@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#10151b" />
+    <link rel="icon" href="./favicon.svg" />
+    <title>RYDNOX — Meridian Quarter</title>
+    <script type="module" crossorigin src="/RYDNOX-preview/assets/index-BJZWyyez.js"></script>
+    <link rel="modulepreload" crossorigin href="/RYDNOX-preview/assets/babylon-7cts_V0U.js">
+    <link rel="modulepreload" crossorigin href="/RYDNOX-preview/assets/engine-C9L7xhJw.js">
+    <link rel="modulepreload" crossorigin href="/RYDNOX-preview/assets/gameplay-BUe8aS2Q.js">
+    <link rel="modulepreload" crossorigin href="/RYDNOX-preview/assets/districts-DcdFlTH-.js">
+    <link rel="stylesheet" crossorigin href="/RYDNOX-preview/assets/gameplay-ugyJyA3S.css">
+  </head>
+  <body>
+    <div id="app" aria-live="polite">
+      <div id="loading" class="loading-screen">
+        <div class="loading-card"><h1 data-string="loadingTitle">RYDNOX</h1><p data-string="loadingMessage">Loading district…</p><div class="progress-track"><div id="loading-progress" class="progress-bar"></div></div></div>
+      </div>
+      <canvas id="game-canvas" aria-label="RYDNOX driving scene"></canvas>
+      <div id="hud" class="hud" hidden>
+        <div id="speed" class="speed-readout">0 km/h</div>
+        <div id="tier" class="tier-badge">AUTO</div>
+        <div id="stuck-hint" class="stuck-hint" hidden></div>
+      </div>
+      <div id="touch-controls" class="touch-controls" hidden></div>
+      <div id="pause-menu" class="pause-menu" hidden></div>
+      <div id="portrait-warning" class="portrait-warning" hidden></div>
+      <div id="debug-overlay" class="debug-overlay" hidden></div>
+      <div id="error-overlay" class="error-overlay" hidden></div>
+    </div>
+  </body>
+</html>
