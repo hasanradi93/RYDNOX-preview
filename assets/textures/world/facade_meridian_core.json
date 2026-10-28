@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "id": "meridian_core",
+  "atlasSize": [
+    2048,
+    2048
+  ],
+  "pixelOrigin": "top-left",
+  "gutterPx": 8,
+  "mobileScale": 0.5,
+  "channels": {
+    "basecolor": "sRGB RGB",
+    "orm": "linear R=AO G=roughness B=metallic",
+    "emissive": "sRGB RGB"
+  },
+  "styles": {
+    "residential": {
+      "storeyHeightM": 3.0,
+      "regions": {
+        "ground": {
+          "rect": [
+            8,
+            8,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "upper": {
+          "rect": [
+            8,
+            136,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "roof": {
+          "rect": [
+            8,
+            264,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "trim": {
+          "rect": [
+            8,
+            392,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.0,
+            0.3
+          ]
+        }
+      }
+    },
+    "station": {
+      "storeyHeightM": 4.5,
+      "regions": {
+        "ground": {
+          "rect": [
+            520,
+            8,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            18.0,
+            4.5
+          ]
+        },
+        "upper": {
+          "rect": [
+            520,
+            136,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            18.0,
+            4.5
+          ]
+        },
+        "roof": {
+          "rect": [
+            520,
+            264,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            18.0,
+            4.5
+          ]
+        },
+        "trim": {
+          "rect": [
+            520,
+            392,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            18.0,
+            0.3
+          ]
+        }
+      }
+    },
+    "commercial": {
+      "storeyHeightM": 3.5,
+      "regions": {
+        "ground": {
+          "rect": [
+            1032,
+            8,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            14.0,
+            3.5
+          ]
+        },
+        "upper": {
+          "rect": [
+            1032,
+            136,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            14.0,
+            3.5
+          ]
+        },
+        "roof": {
+          "rect": [
+            1032,
+            264,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            14.0,
+            3.5
+          ]
+        },
+        "trim": {
+          "rect": [
+            1032,
+            392,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            14.0,
+            0.3
+          ]
+        }
+      }
+    },
+    "market": {
+      "storeyHeightM": 3.2,
+      "regions": {
+        "ground": {
+          "rect": [
+            1544,
+            8,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "upper": {
+          "rect": [
+            1544,
+            136,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "roof": {
+          "rect": [
+            1544,
+            264,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "trim": {
+          "rect": [
+            1544,
+            392,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.8,
+            0.3
+          ]
+        }
+      }
+    },
+    "downtown": {
+      "storeyHeightM": 3.6,
+      "regions": {
+        "ground": {
+          "rect": [
+            8,
+            520,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            14.4,
+            3.6
+          ]
+        },
+        "upper": {
+          "rect": [
+            8,
+            648,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            14.4,
+            3.6
+          ]
+        },
+        "roof": {
+          "rect": [
+            8,
+            776,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            14.4,
+            3.6
+          ]
+        },
+        "trim": {
+          "rect": [
+            8,
+            904,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            14.4,
+            0.3
+          ]
+        }
+      }
+    },
+    "garage": {
+      "storeyHeightM": 4.0,
+      "regions": {
+        "ground": {
+          "rect": [
+            520,
+            520,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            16.0,
+            4.0
+          ]
+        },
+        "upper": {
+          "rect": [
+            520,
+            648,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            16.0,
+            4.0
+          ]
+        },
+        "roof": {
+          "rect": [
+            520,
+            776,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            16.0,
+            4.0
+          ]
+        },
+        "trim": {
+          "rect": [
+            520,
+            904,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            16.0,
+            0.3
+          ]
+        }
+      }
+    },
+    "park": {
+      "storeyHeightM": 3.0,
+      "regions": {
+        "ground": {
+          "rect": [
+            1032,
+            520,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "upper": {
+          "rect": [
+            1032,
+            648,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "roof": {
+          "rect": [
+            1032,
+            776,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.0,
+            3.0
+          ]
+        },
+        "trim": {
+          "rect": [
+            1032,
+            904,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.0,
+            0.3
+          ]
+        }
+      }
+    },
+    "promenade": {
+      "storeyHeightM": 3.2,
+      "regions": {
+        "ground": {
+          "rect": [
+            1544,
+            520,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "upper": {
+          "rect": [
+            1544,
+            648,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "roof": {
+          "rect": [
+            1544,
+            776,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            12.8,
+            3.2
+          ]
+        },
+        "trim": {
+          "rect": [
+            1544,
+            904,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            12.8,
+            0.3
+          ]
+        }
+      }
+    },
+    "industrial": {
+      "storeyHeightM": 5.0,
+      "regions": {
+        "ground": {
+          "rect": [
+            8,
+            1032,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            20.0,
+            5.0
+          ]
+        },
+        "upper": {
+          "rect": [
+            8,
+            1160,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            20.0,
+            5.0
+          ]
+        },
+        "roof": {
+          "rect": [
+            8,
+            1288,
+            496,
+            112
+          ],
+          "repeat": "xy",
+          "tileMeters": [
+            20.0,
+            5.0
+          ]
+        },
+        "trim": {
+          "rect": [
+            8,
+            1416,
+            496,
+            112
+          ],
+          "repeat": "x",
+          "tileMeters": [
+            20.0,
+            0.3
+          ]
+        }
+      }
+    }
+  }
+}

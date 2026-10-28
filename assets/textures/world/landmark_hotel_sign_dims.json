@@ -1,0 +1,24 @@
+{
+  "assetId": "landmark_hotel_sign",
+  "meshes": {
+    "landmark_hotel_sign": {
+      "min": [
+        -6.0,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        6.0,
+        4.0,
+        0.295
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "maxTriangles": 1500,
+      "triangles": 108
+    }
+  }
+}

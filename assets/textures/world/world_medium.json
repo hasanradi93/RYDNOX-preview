@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "tier": "medium",
+  "maxGpuBytes": 40000000,
+  "textures": [
+    {
+      "file": "facade_meridian_core_basecolor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "facade_meridian_core_emissive_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "road_asphalt_basecolor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "road_markings_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA4444",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "pavement_basecolor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "kerb_basecolor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "props_001_basecolor_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA4444",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "props_001_orm_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "props_001_emissive_1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "landmark_clock_tower_basecolor.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "landmark_clock_tower_emissive.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "landmark_hotel_sign_basecolor.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    },
+    {
+      "file": "landmark_hotel_sign_emissive.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGB565",
+      "mipmaps": true,
+      "gpuBytes": 2796202
+    }
+  ],
+  "totalGpuBytes": 36350626,
+  "scalarMaterials": {
+    "facade": {
+      "roughness": 0.7,
+      "metallic": 0
+    },
+    "road_asphalt": {
+      "roughness": 0.9,
+      "metallic": 0
+    },
+    "pavement": {
+      "roughness": 0.85,
+      "metallic": 0
+    },
+    "kerb": {
+      "roughness": 0.85,
+      "metallic": 0
+    },
+    "landmarks": {
+      "roughness": 0.7254901960784313,
+      "metallic": 0
+    }
+  },
+  "integration": "Upload packed 16-bit mipmapped textures once; share by URL. Do not retain embedded 2048 textures. High uses full RGB8/RGBA8 and all ORM maps."
+}

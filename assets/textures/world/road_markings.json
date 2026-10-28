@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "atlasSize": [
+    2048,
+    2048
+  ],
+  "pixelOrigin": "top-left",
+  "mobileScale": 0.5,
+  "colorSpace": "sRGB",
+  "alpha": "straight coverage",
+  "paintColor": "#f2e6a3",
+  "regions": {
+    "dashed_lane_line": {
+      "rect": [
+        8,
+        8,
+        496,
+        496
+      ],
+      "repeat": "y"
+    },
+    "solid_line": {
+      "rect": [
+        520,
+        8,
+        496,
+        496
+      ],
+      "repeat": "y"
+    },
+    "double_line": {
+      "rect": [
+        1032,
+        8,
+        496,
+        496
+      ],
+      "repeat": "y"
+    },
+    "stop_line": {
+      "rect": [
+        1544,
+        8,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "zebra_crossing": {
+      "rect": [
+        8,
+        520,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "arrow_straight": {
+      "rect": [
+        520,
+        520,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "arrow_left": {
+      "rect": [
+        1032,
+        520,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "arrow_right": {
+      "rect": [
+        1544,
+        520,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "parking_bay": {
+      "rect": [
+        8,
+        1032,
+        496,
+        496
+      ],
+      "repeat": "none"
+    },
+    "give_way_triangles": {
+      "rect": [
+        520,
+        1032,
+        496,
+        496
+      ],
+      "repeat": "none"
+    }
+  }
+}

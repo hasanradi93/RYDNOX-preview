@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "pixelOrigin": "top-left",
+  "surfaces": {
+    "road_asphalt": {
+      "tileMeters": [
+        4,
+        4
+      ],
+      "roughness": 0.9,
+      "color": "#454b51"
+    },
+    "pavement": {
+      "tileMeters": [
+        8,
+        8
+      ],
+      "roughness": 0.85,
+      "color": "#929b9e"
+    },
+    "kerb": {
+      "tileMeters": [
+        8,
+        0.12
+      ],
+      "roughness": 0.85,
+      "color": "#929b9e"
+    }
+  },
+  "metallic": 0,
+  "kerbHeightM": 0.12
+}
