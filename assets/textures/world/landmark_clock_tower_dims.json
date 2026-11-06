@@ -1,0 +1,43 @@
+{
+  "assetId": "landmark_clock_tower",
+  "meshes": {
+    "landmark_clock_tower_lod0": {
+      "min": [
+        -6.0,
+        0.0,
+        -6.0
+      ],
+      "max": [
+        6.0,
+        45.0,
+        6.0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "maxTriangles": 6000,
+      "triangles": 448
+    },
+    "landmark_clock_tower_lod1": {
+      "min": [
+        -6.0,
+        0.0,
+        -6.0
+      ],
+      "max": [
+        6.0,
+        45.0,
+        6.0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "maxTriangles": 1500,
+      "triangles": 160
+    }
+  }
+}
